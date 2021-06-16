@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+<title>Which Political Candidates Should I Vote For?</title>
+<style>
+body {
+background-color: purple;
+font-family: Roboto;
+}
+
+#main {
+width: 60%;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+}
+
+label {
+width: 250px;
+display: block;
+}
+
+button {
+display: block;
+margin-top: 20px;
+
+}
+</style>
+</head>
+<body>
+<div id="main">
+<div id="header"><h1>Which Political Candidate Should I Vote For?</h1><h3>Select which options apply most to you. If you are undecided about the issue presented in the question, select "I do not want to answer this question."</h3></div>
+
+<form  id="form1">
+
+
+<form  id="form1">
+<p>ABORTION</p>
+<p><label><input type="radio" name="abortion" id="conservative" value="1" />abortion should never be legal</label></p>
+<p><label><input type="radio" name="abortion" id="moderately conservative" value="2" />abortion should only be legal with extenuating circumstances: ex. cases of rape/incest or when the child poses a danger to the mother</label></p>
+<p><label><input type="radio" name="abortion" id="moderately liberal" value="3" />abortion should be restricted by number of weeks into the pregnancy and/or should be illegal without parental consent  </label></p>
+<p><label><input type="radio" name="abortion" id="liberal" value="4" />abortion should always be legal</label></p>
+<p><label><input type="radio" name="abortion" id="defiant" value="0" />I do not want to answer this question </label></p>
+
+<p>SAME-SEX MARRIAGE</p>
+<p><label><input type="radio" name="SSM" id="yes" value="1" /> same-sex marriage should not be recognized by the North Carolina government </label></p>
+<p><label><input type="radio" name="SSM" id="no" value="2" /> same-sex marriage should be recognized by the North Carolina government </label></p>
+<p><label><input type="radio" name="SSM" id="IDK" value="0" />I do not want to answer this question </label></p>
+
+<p>CRIME</p>
+<p><label><input type="radio" name="crime" id="death" value="1" />North Carolina should crack down on crime: methods may include increasing the use of the death penalty and increasing penalties for drug-related crimes </label></p>
+<p><label><input type="radio" name="crime" id="wrong" value="2" />North Carolina should maintain their stance on crime: North Carolina should not decriminalize Marijuana and should maintain its use of the death penalty. </label></p>
+<p><label><input type="radio" name="crime" id="yep" value="3" />North Carolina should decrease the severity of its crime laws: methods may include decriminalizing Marijuana and eliminating the use of the death penalty.</label></p>
+<p><label><input type="radio" name="crime" id="whoknows" value="0" />I do not want to answer this question.</label></p>
+
+<p>IMMIGRATION</p>
+<p><label><input type="radio" name="immigration" id="none" value="1" />Immigration laws should always be enforced in North Carolina.</label></p>
+<p><label><input type="radio" name="immigration" id="some" value="2" />Immigration laws should not be enforced with law-abiding citizens.</label></p>
+<p><label><input type="radio" name="immigration" id="never" value="3" />Immigration laws in North Carolina should be abolished/should never be enforced.</label></p>
+<p><label><input type="radio" name="immigration" id="what" value="0" />I do not want to answer this question.</label></p>
+
+<p>AFFIRMATIVE ACTION</p>
+<p><label><input type="radio" name="affirmativeaction" id="safe" value="3" />Voters should be required to show photo IDs to vote in NC: this helps to verify voters' identities.</label></p>
+<p><label><input type="radio" name="affirmativeaction" id="ouch" value="1" />The government should never enforce quotas of minority populations in colleges or in government jobs: merit should be considered only.</label></p>
+<p><label><input type="radio" name="affirmativeaction" id="unfair" value="2" />Voters should not be required to show a photo ID to vote in North Carolina: this disproportionately disadvantages minority, low-income, and elderly populations as well as people with disabilities. </label></p>
+<p><label><input type="radio" name="affirmativeaction" id="noooo" value="0" />I do not want to answer this question.</label></p>
+
+<p>ECONOMIC DEVELOPMENT</p>
+<p><label><input type="radio" name="economicdevelopment" id="wowza" value="1" />Large businesses should get the same tax breaks as small businesses to promote business in NC.</label></p>
+<p><label><input type="radio" name="economicdevelopment" id="lol" value="2" />The NC government should promote small businesses by repealing excessive regulations.</label></p><p><label><input type="radio" name="economicdevelopment" id="lowa" value="3" />The government should focus on small business development, housing and zoning.</label></p>
+<p><label><input type="radio" name="economicdevelopment" id="meow" value="4" />The NC government should promote small businesses by providing low interest loans and tax credits to expanding, start-up, or relocating businesses.</label></p>
+<p><label><input type="radio" name="economicdevelopment" id="lele" value="0" />I do not want to answer this question.</label></p>
+
+<p>EDUCATION</p>
+<p><label><input type="radio" name="education" id="wowza" value="1" />Education shouldn't be public in NC.</label></p>
+<p><label><input type="radio" name="education" id="lol" value="2" />Government funding for education in NC should be lowered.</label></p><p><label><input type="radio" name="education" id="crasoot" value="4" />government funding for education in NC should stay the same.</label></p>
+<p><label><input type="radio" name="education" id="lowa" value="4" />Alternatives to traditional public school (ex. vocational school, magnet school, charter school) should be increasingly funded rather than traditional public school.</label></p>
+<p><label><input type="radio" name="education" id="meow" value="5" />Traditional public schools and nontraditional public schools should recieve an increase in funding.</label></p>
+<p><label><input type="radio" name="education" id="lele" value="0" />I do not want to answer this question.</label></p>
+
+<p>ENVIRONMENT</p>
+<p><label><input type="radio" name="environment" id="speed" value="1" />No environmental regulations or incentives should be enforced by the NC government.</label></p>
+<p><label><input type="radio" name="environment" id="skew" value="2" />The government should provide incentives for businesses to employ more sustainable environmental practices, but not environmental regulations.</label></p><p><label><input type="radio" name="environment" id="weezer" value="3" />Environmental regulations should be enforced in NC.</label></p>
+<label><input type="radio" name="environment" id="skate" value="0" />I do not want to answer this question.</label></p>
+
+<p>GUN CONTROL</p>
+<p><label><input type="radio" name="guncontrol" id="stri" value="1" />The government should abolish all gun control laws and regulations in North Carolina.</label></p>
+<p><label><input type="radio" name="guncontrol" id="lik" value="2" />Gun control laws should be less strict in North Carolina. </label></p><p><label><input type="radio" name="guncontrol" id="cram" value="3" />The strictness of gun laws should not be changed in North Carolina. </label></p>
+<p><label><input type="radio" name="guncontrol" id="cram" value="4" />Gun laws should be more strict in North Carolina. </label></p>
+<p><label><input type="radio" name="guncontrol" id="crack" value="5" />People in NC should not be allowed to buy or have guns at all.</label></p>
+<p><label><input type="radio" name="guncontrol" id="cawwww" value="0" />I do not want to answer this question.</label></p>
+
+<p>HEALTHCARE</p>
+<p><label><input type="radio" name="healthcare" id="lew" value="1" /></label> People should have freedom of choice in healthcare, and the government should not force people to buy health insurance. It is not the government's job to provide healthcare for everyone.</p>
+<p><label><input type="radio" name="healthcare" id="pewpew" value="3" />Everyone in North Carolina should have access to basic healthcare.</label></p>
+<p><label><input type="radio" name="healthcare" id="rue" value="4" />Everyone in NC should be required to buy health insurance, and all citizens should have access to healthcare.</label></p>
+<p><label><input type="radio" name="healthcare" id="trez" value="0" />I do not want to answer this question.</label></p>
+
+<p>
+
+<button type="submit" value="Submit">Submit</button>
+
+</form>
+<p id="answer"></p>
+<p id="answer2"></p>
+</div>
+
+<script>
+	   document.getElementById("form1").onsubmit=function() {
+	   
+	   if(document.querySelector('input[name = "abortion"]:checked') && document.querySelector('input[name = "SSM"]:checked') && document.querySelector('input[name = "crime"]:checked') && document.querySelector('input[name = "affirmativeaction"]:checked') && document.querySelector('input[name = "immigration"]:checked') && document.querySelector('input[name = "education"]:checked') && document.querySelector('input[name = "economicdevelopment"]:checked') && document.querySelector('input[name = "environment"]:checked') && document.querySelector('input[name = "guncontrol"]:checked') && document.querySelector('input[name = "healthcare"]:checked')){
+	   
+	  abortion = parseInt(document.querySelector('input[name = "abortion"]:checked').value);  
+	  
+	  SSM = parseInt(document.querySelector('input[name = "SSM"]:checked').value);
+	   
+	  crime = parseInt(document.querySelector('input[name = "crime"]:checked').value);
+      
+      immigration = parseInt(document.querySelector('input[name = "immigration"]:checked').value);
+      
+      affirmativeaction = parseInt(document.querySelector('input[name = "affirmativeaction"]:checked').value);
+      
+      education = 
+parseInt(document.querySelector('input[name = "education"]:checked').value);
+
+      economicdevelopment = 
+parseInt(document.querySelector('input[name = "economicdevelopment"]:checked').value);
+
+	environment = 
+parseInt(document.querySelector('input[name = "environment"]:checked').value);
+	   
+       guncontrol = 
+parseInt(document.querySelector('input[name = "guncontrol"]:checked').value); 
+
+       healthcare = 
+parseInt(document.querySelector('input[name = "healthcare"]:checked').value);
+
+	   total= abortion + SSM + crime + immigration + affirmativeaction + education + environment + guncontrol + healthcare + economicdevelopment;
+	   
+	  
+	   document.getElementById("answer").innerHTML = total;	   
+
+	   if(total <= 14) {
+document.getElementById("answer2").innerHTML = "You got Al Pisano.";
+}
+
+   if(total >= 15 && total < 22) {
+document.getElementById("answer2").innerHTML = "You got Dan Forest.";
+}
+	
+	if(total >= 22 && total < 26.5) {
+document.getElementById("answer2").innerHTML = "You got Roy Cooper.";
+}   
+
+	if(total > 27.5) {
+document.getElementById("answer2").innerHTML = "You got Steven DiFiore.";
+}
+
+	if(total >= 26.5 && total <= 27.5 ) {
+document.getElementById("answer2").innerHTML = "You could vote for either Steven DiFiore or Roy Cooper;.";
+}
+}
+
+else {
+alert("Fill out all questions before submitting.");
+}
+		   
+	   return false; // required to not refresh the page; just leave this here
+	   }// end the submit function
+</script>
+
+
+
